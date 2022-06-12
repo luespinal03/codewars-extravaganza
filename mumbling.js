@@ -24,3 +24,31 @@
  //accum("abcd") - > "A-Bb-Ccc-Dddd"
  //accum("RqaEzty") - > "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
  //accum("cwAt") - > "C-Ww-Aaa-Tttt"
+
+ /* Notes: 
+
+Step 1: Capitalize all letters first
+
+
+
+
+
+
+Parameter: type, String, how many? 1 parameter, str (parameters are separated by commas) 
+
+do i need to go through each character 1 at a time? yes
+syntax needed to do that: loop - for loop
+things i need:
+
+i for the index 
+newStr - empty string to build upon
+
+to control the cae: 
+.toUpperCase() a => A, A => A
+.toLowerCase() A => a, a => a
+
+let str = "hi"
+str.toUpperCase(); => "HI"
+let str2 = "Wow";
+str2.toLowerCase(); => "wow"
+*/
