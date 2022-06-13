@@ -3,7 +3,11 @@ function dissemvowel(str) {
 
     for (let i = 0; i < str.length; i++) {
         let lower = str[i].toLowerCase()
-        if (lower !== "a" && lower !== "e" && lower !== "i" && lower !== "o" && lower !== "u"){
+        if (lower !== "a" &&
+            lower !== "e" &&
+            lower !== "i" &&
+            lower !== "o" &&
+            lower !== "u") {
             // adds character if it is NOT a vowel
             newStr = newStr + str[i]
         }
