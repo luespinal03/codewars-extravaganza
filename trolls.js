@@ -1,4 +1,4 @@
-function dissemvowel(str) {
+function disemvowel(str) {
     let newStr = ""
 
     for (let i = 0; i < str.length; i++) {
@@ -16,7 +16,7 @@ function dissemvowel(str) {
     return newStr;
 }
 
-console.log(dissemvowel("This website is for losers LOL!"))
+console.log(disemvowel("This website is for losers LOL!"))
 /* 
 
 - if statement to check for vowels
