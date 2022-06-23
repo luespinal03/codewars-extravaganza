@@ -25,8 +25,6 @@ if(iterable[i] !== iterable[i + 1]){
 } else if(iterable[i] !== iterable[i + 1])
 
 
-
-
     // keep checking until whichever character in iterable[i]
 
 */
@@ -37,7 +35,7 @@ var uniqueInOrder = function uniqueInOrder(iterable){
     for(let i = 0; i < iterable.length; i++){
         if(iterable[i] !== iterable[i + 1]){
             finalArray.push(iterable[i])
-    } else if(iterable[i + 1 === undefined]){
+    } else if (iterable[i + 1 === undefined]){
         finalArray.push(iterable[i])
     }
 }
