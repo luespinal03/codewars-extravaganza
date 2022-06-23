@@ -37,9 +37,9 @@ function gooseFilter(birds) {
     var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 
     return birds.filter(function (x) {
-        //console.log("x: " + x)
-        //console.log("index: " + geese.indexOf(x))// we want to take stuff out of birds array
-        return geese.indexOf(x) === -1 // go through each bird index, and if its not in the geese array filter it out
+        console.log("x: " + x)
+        console.log("index: " + geese.indexOf(x))// we want to take stuff out of birds array
+        return geese.indexOf(x) === -1 // go through each geese index, and if it === -1 filter it out (meaning its not in the geese array)
     })
 
     // if item in birds array is NOT in geese array, add to final array
