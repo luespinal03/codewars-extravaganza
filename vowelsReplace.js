@@ -7,18 +7,18 @@
 
 
 function replace(string) {
-    let newStr = ''
+    let newStr = '' // string building
     // console.log(newStr)
     for (letter of string) {
         if (letter === 'a' || letter === 'e' || letter === 'i' || letter === 'o' || letter === 'u'){
             newStr += '_';
         } else {
-            newStr += letter
+            newStr += letter;
         }
     }
     return newStr;
 }
 
-console.log(replace("sad"))
-console.log(replace("hello"))
-console.log(replace("testing"))
+console.log(replace("sad"));
+console.log(replace("hello"));
+console.log(replace("testing"));
